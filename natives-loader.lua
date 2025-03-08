@@ -19,7 +19,7 @@ and type(script_key) == "string" then
 end
 
 -- Library
-local Library = (getgenv and getgenv().NATIVELIBRARY) or loadstring(game:HttpGet("https://getnative.cc/script/interface" or "https://pastebin.com/raw/7UZTruD4" or "https://raw.githubusercontent.com/Native-lab/Native/refs/heads/main/Library/UI.lua", true))()
+local Library = (getgenv and getgenv().NATIVELIBRARY) or loadstring(game:HttpGet("https://raw.githubusercontent.com/NativeGateway/natives/refs/heads/main/interface.lua" or "https://pastebin.com/raw/7UZTruD4" or "https://raw.githubusercontent.com/Native-lab/Native/refs/heads/main/Library/UI.lua", true))()
 
 getgenv().NATIVELIBRARY = Library
 
