@@ -19,7 +19,7 @@ and type(script_key) == "string" then
 end
 
 -- Library
-local Library = (getgenv and getgenv().NATIVELIBRARY) or loadstring(game:HttpGet("https://raw.githubusercontent.com/NativeGateway/natives/refs/heads/main/interface.lua" or "https://pastebin.com/raw/7UZTruD4" or "https://raw.githubusercontent.com/Native-lab/Native/refs/heads/main/Library/UI.lua", true))()
+local Library = (getgenv and getgenv().NATIVELIBRARY) or loadstring(game:HttpGet("https://raw.githubusercontent.com/NativeGateway/natives/refs/heads/main/interface.lua", true))()
 
 getgenv().NATIVELIBRARY = Library
 
@@ -28,37 +28,42 @@ local RunLoader = (function(write)
 		["Death Ball"] = {
 			GameId = 5166944221;
 			PlaceIds = {};
-			Loader = "https://api.luarmor.net/files/v3/loaders/c1e22c6997f84329ce2f8667f71828f8.lua";
+			Loader = "https://api.luarmor.net/files/v3/loaders/2623c74821b882b1e5e529b9078bd30a.lua";
 		};
 		["Anime Vanguards"] = {
 			GameId = 5578556129;
 			PlaceIds = {};
-			Loader = "https://api.luarmor.net/files/v3/loaders/c296c70e07b1a42087ce52d1d2625af6.lua";
+			Loader = "https://api.luarmor.net/files/v3/loaders/be2f65b9bda9c9e9aaf37dbbe3d48070.lua";
 		};
 		["Fisch"] = {
 			GameId = 5750914919;
 			PlaceIds = {};
-			Loader = "https://api.luarmor.net/files/v3/loaders/4fc6ba8a6aa72adc07287f84ece4730d.lua";
+			Loader = "https://api.luarmor.net/files/v3/loaders/3c7650df1287b147b62944e27ae8006a.lua";
 		};
 		["Fisch: Test"] = {
 			GameId = 6756890519;
 			PlaceIds = {};
-			Loader = "https://api.luarmor.net/files/v3/loaders/4fc6ba8a6aa72adc07287f84ece4730d.lua";
+			Loader = "https://api.luarmor.net/files/v3/loaders/3c7650df1287b147b62944e27ae8006a.lua";
 		};
 		["Fisch: Test 2"] = {
 			GameId = 5750914919;
 			PlaceIds = {};
-			Loader = "https://api.luarmor.net/files/v3/loaders/4fc6ba8a6aa72adc07287f84ece4730d.lua";
+			Loader = "https://api.luarmor.net/files/v3/loaders/3c7650df1287b147b62944e27ae8006a.lua";
 		};
 		["Jujutsu Infinite"] = {
-			GameId = 3808223175;
+			GameId = .3808223175;
 			PlaceIds = {};
 			Loader = "https://api.luarmor.net/files/v3/loaders/1e9916162a8c65e9b12fb4fd43fdb2ab.lua";
 		};
 		["Anime Adventures"] = {
-			GameId = 3183403065;
+			GameId = .3183403065;
 			PlaceIds = {};
 			Loader = "https://api.luarmor.net/files/v3/loaders/e35860641326143c12c12f00dbffade4.lua";
+		};
+		["Beaks"] = {
+			GameId = 7095682825;
+			PlaceIds = {};
+			Loader = "https://api.luarmor.net/files/v3/loaders/b8966cedce625dac5d782b13ea5d7a3d.lua";
 		};
 	};
 	
@@ -233,11 +238,12 @@ do
 					Initial = true;
 					LayoutOrder = 1;
 					Logs = {
-						"[+] Anime Adventures 1/14/2025";
-						"[+] Jujutsu Infinite 7/25/2025";
-						"[+] Fisch 11/16/2024";
-						"[+] Anime Vanguards 9/14/2024";
-						"[+] Death Ball 1/23/2024";
+						"[+] Beaks 04/19/2025";
+						"[+] Anime Adventures 01/14/2025";
+						"[+] Jujutsu Infinite 07/25/2025";
+						"[+] Fisch 011/16/2024";
+						"[+] Anime Vanguards 09/14/2024";
+						"[+] Death Ball 01/23/2024";
 					};
 					Callback = function(self)
 						
